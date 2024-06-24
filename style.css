@@ -21,7 +21,19 @@ p{
     url("Image/LovelyHome-9aBZ.ttf") format('truetype');
 
   }
-
+  li a:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(155, 43, 106);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+li a:hover{
+    color: rgb(108, 102, 102);
+}
 .brand-name ,.navbar-light .navbar-brand{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
