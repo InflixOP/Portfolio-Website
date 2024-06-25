@@ -6,34 +6,107 @@ body{
 .body_section{
     padding : 3% 5% 1%;
 }
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
 
+.navbar-light .navbar-brand, .headerachor, .footer {
+    color: #351458;
+}
+
+body.dark-mode .navbar-light .navbar-brand,
+body.dark-mode .headerachor,
+body.dark-mode .footer {
+    color: #d1d1d1;
+}
+
+/* Button Styles */
+.theme-toggle-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #351458;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body.dark-mode .theme-toggle-btn {
+    background-color: #d1d1d1;
+    color: #121212;
+}
 p{
   font-size: 18px;
+}
+@media only screen and (max-width: 764px) {
+    .feature-web + .Feature-second-image {
+        margin-bottom:80px ; /* Adds two lines gap between the image and heading */
+    }
+
+    .brand-name ,.navbar-light .navbar-brand {
+        font-family: "Lovely Home";
+        font-size: 40px;
+        font-weight: bold;
+        color: #351458;
+    }
 }
 
   a{
     text-decoration: none;
   }
-
+#work{
+    font-family: "Lovely Home";
+    font-size: 50px;
+    font-weight: bold;
+    color: #351458;
+}
   @font-face{
     font-family: "Lovely Home";
     src:local('Lovely Home'), 
-    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
+    url("Lobster_1.3.otf") format('truetype');
 
   }
-  li a:after{
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .nav-item {
+    position: relative;
+    margin-right: 20px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    padding: 10px 0;
+  }
+
+  .nav-link:after {
     content: "";
     position: absolute;
     background-color: rgb(155, 43, 106);
     height: 3px;
     width: 0;
     left: 0;
-    bottom: -10px;
-    transition: 0.3s;
-}
-li a:hover{
+    bottom: -5px;
+    transition: width 0.3s;
+  }
+
+  .nav-link:hover {
     color: rgb(108, 102, 102);
-}
+  }
+
+  .nav-link:hover:after {
+    width: 100%;
+  }
 .brand-name ,.navbar-light .navbar-brand{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
@@ -190,7 +263,6 @@ span.wave {
       font-size: 1em;
     }
   }
-
  #Whatido{
      text-align: center;
      padding-top: 7%;
@@ -258,7 +330,15 @@ span.wave {
     max-width: 100%;
     max-height: 100%;
     width : 23%;
-    height: 15%;
+    height: 25%;
+    padding-bottom: 7%;
+    padding-left :3%;
+  }
+  .tensor{
+    max-width: 100%;
+    max-height: 100%;
+    width : 15%;
+    height: 25%;
     padding-bottom: 7%;
     padding-left :0;
   }
@@ -326,7 +406,7 @@ span.wave {
 
       .pandas{
         width: 23%;
-        height: 15%;
+        height: 25%;
       }
   }
 
