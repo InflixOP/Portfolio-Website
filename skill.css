@@ -1,0 +1,595 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: 0;
+  }
+.body_section{
+    padding : 3% 5% 1%;
+}
+
+  a{
+    text-decoration: none;
+  }
+#profimg{
+    height: 50%;
+    margin-top: 27%;
+}
+  @font-face{
+    font-family: "Lovely Home";
+    src:local('Lovely Home'), 
+    url("Lobster_1.3.otf") format('truetype');
+
+  }
+
+.brand-name ,.navbar-light .navbar-brand{
+      /* font-family: "Brush Script MT"; */
+      /* margin-bottom: 3px; */
+      font-family: "Lovely Home";
+      font-size: 50px;
+      font-weight: bold;
+      color: #351458;
+  }
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .nav-item {
+    position: relative;
+    margin-right: 20px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    padding: 10px 0;
+  }
+#prof{
+    font-family: "Lovely Home";
+    color: #351458;
+    font-weight: bold;
+    font-size: 300%;
+}
+  .nav-link:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(155, 43, 106);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s;
+  }
+
+  .nav-link:hover {
+    color: rgb(108, 102, 102);
+  }
+
+  .nav-link:hover:after {
+    width: 100%;
+  }
+
+  @media only screen and (max-width : 764px){
+      .brand-name ,.navbar-light .navbar-brand{
+      font-family: "Lovely Home";
+      font-size: 40px;
+      font-weight: bold;
+      color: #351458;
+  }
+}
+
+
+  .headerachor {
+    color: black;
+    margin: 0 7px 0 7px;
+    font-size: 25px;
+  }
+
+  .headerachor:hover {
+    background-color: #f1f1f1;
+  }
+
+  .Section1{
+    padding: 4% 0 3%;
+  }
+
+.skill-img{
+    width:100%;
+    height: 100%;
+}
+
+.Skill-heading{
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#SkillBox {
+    width: 95%;
+    height: auto;
+    margin: 40px auto;
+    background-color: #fff;
+
+    /* border: 1px solid #cdcdcd; */
+    padding: 10px;
+    border-radius:50px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+    -ms-border-radius:20px;
+    -moz-border-radius:20px;
+}
+#SkillBox img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    border-radius:20px;
+    /* background: rgba(17, 17, 17, .3); */
+    background: #7fb6bb;
+    margin: 20px auto;
+}
+
+
+#Skill-HTML {
+    width: 65%;
+    border-radius:20px;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color:#0f2f31;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}#Skill-PHP {
+    animation: Animate-PHP 4s;
+    -webkit-animation: Animate-PHP 4s;
+    -moz-animation: Animate-PHP 4s;
+    -o-animation: Animate-PHP 4s;
+    border-radius:20px;
+    width: 62%;
+    height: 50px;
+    position: absolute;
+    background-color: #0f2f31;
+}
+@keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 62%}
+}@-webkit-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 62%}
+}@-moz-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 62%}
+}@-o-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 62%}
+}#Skill-Python {
+    border-radius:20px;
+    animation: Animate-Python 4s;
+    -webkit-animation: Animate-Python 4s;
+    -moz-animation: Animate-Python 4s;
+    -o-animation: Animate-Python 4s;
+    width: 75%;
+    height: 50px;
+    position: absolute;
+    background-color: #0f2f31;
+}
+@keyframes Animate-Python {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-webkit-keyframes Animate-Python {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-moz-keyframes Animate-Python {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-o-keyframes Animate-Python {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}#Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    border-radius:20px;
+    width: 55%;
+    height: 50px;
+    position: absolute;
+    background-color: #0f2f31;
+}
+#Skill-node {
+    animation: Animate-node 4s;
+    -webkit-animation: Animate-node 4s;
+    -moz-animation: Animate-node 4s;
+    -o-animation: Animate-node 4s;
+    border-radius:20px;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #0f2f31;
+}
+
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}
+@keyframes Animate-node {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-node {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-node {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-node {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}
+
+#Skill-java {
+    animation: Animate-java 4s;
+    -webkit-animation: Animate-java 4s;
+    -moz-animation: Animate-java 4s;
+    -o-animation: Animate-java 4s;
+    border-radius:20px;
+    width: 68%;
+    height: 50px;
+    position: absolute;
+    background-color: #0f2f31;
+}
+@keyframes Animate-java {
+    from {
+    width: 10px;
+}
+to {
+    width: 68%}
+}@-webkit-keyframes Animate-java {
+    from {
+    width: 10px;
+}
+to {
+    width: 68%}
+}@-moz-keyframes Animate-java {
+    from {
+    width: 10px;
+}
+to {
+    width: 68%}
+}@-o-keyframes Animate-java {
+    from {
+    width: 10px;
+}
+to {
+    width: 68%}
+}#Skill-Cplus {
+    animation: Animate-Cplus4s;
+    -webkit-animation: Animate-Cplus 4s;
+    -moz-animation: Animate-Cplus 4s;
+    -o-animation: Animate-Cplus 4s;
+    border-radius:20px;
+    width: 88%;
+    height: 50px;
+    position: absolute;
+    background-color: #0f2f31;
+}
+#Skill-Tensorflow {
+    animation: Animate-Tensorflow 4s;
+    -webkit-animation: Animate-Tensorflow 4s;
+    -moz-animation: Animate-Tensorflow 4s;
+    -o-animation: Animate-Tensorflow 4s;
+    border-radius:20px;
+    width: 60%;
+    height: 50px;
+    position: absolute;
+    background-color: #0f2f31;
+}
+@keyframes Animate-Tensorflow {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-webkit-keyframes Animate-Tensorflow {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-moz-keyframes Animate-Tensorflow {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-o-keyframes Animate-Tensorflow {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%
+}}
+#Skill-Matplotlib {
+    animation: Animate-Matplotlib 4s;
+    -webkit-animation: Animate-Matplotlib 4s;
+    -moz-animation: Animate-Matplotlib 4s;
+    -o-animation: Animate-Matplotlib 4s;
+    border-radius:20px;
+    width: 72%;
+    height: 50px;
+    position: absolute;
+    background-color: #0f2f31;
+}
+@keyframes Animate-Matplotlib {
+    from {
+    width: 10px;
+}
+to {
+    width: 72%}
+}@-webkit-keyframes Animate-Matplotlib {
+    from {
+    width: 10px;
+}
+to {
+    width: 72%}
+}@-moz-keyframes Animate-Matplotlib {
+    from {
+    width: 10px;
+}
+to {
+    width: 72%}
+}@-o-keyframes Animate-Matplotlib {
+    from {
+    width: 10px;
+}
+to {
+    width: 72%
+}}
+#Skill-Android {
+    animation: Animate-Android 4s;
+    -webkit-animation: Animate-Android 4s;
+    -moz-animation: Animate-Android 4s;
+    -o-animation: Animate-Android 4s;
+    border-radius:20px;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: #0f2f31;
+}
+@keyframes Animate-Android {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-webkit-keyframes Animate-Android {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-moz-keyframes Animate-Android {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-o-keyframes Animate-Android {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%
+}}
+#Skill-blockchain {
+    animation: Animate-blockchain 4s;
+    -webkit-animation: Animate-blockchain 4s;
+    -moz-animation: Animate-blockchain 4s;
+    -o-animation: Animate-blockchain 4s;
+    border-radius:20px;
+    width: 85%;
+    height: 50px;
+    position: absolute;
+    background-color: #0f2f31;
+}
+@keyframes Animate-blockchain {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}@-webkit-keyframes Animate-blockchain {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}@-moz-keyframes Animate-blockchain {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}@-o-keyframes Animate-blockchain {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%
+}}
+@keyframes Animate-Cplus {
+    from {
+    width: 10px;
+}
+to {
+    width:88%}
+}@-webkit-keyframes Animate-Cplus {
+    from {
+    width: 10px;
+}
+to {
+    width: 88%}
+}@-moz-keyframes Animate-Cplus {
+    from {
+    width: 10px;
+}
+to {
+    width: 88%}
+}@-o-keyframes Animate-Cplus {
+    from {
+    width: 10px;
+}
+to {
+    width: 88%}
+}#Skill-SQL {
+    animation: Animate-SQL 4s;
+    -webkit-animation: Animate-SQL 4s;
+    -moz-animation: Animate-SQL 4s;
+    -o-animation: Animate-SQL 4s;
+    border-radius:20px;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #0f2f31;
+}
+@keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-o-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    /* position: absolute; */
+    margin-top: 8px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+}
+
+
+@media only screen and (max-width : 950px){
+
+    body,html{
+      text-align: center;
+      font-size: 16px;
+      line-height: normal;
+    }
+}
+
+ footer{
+    padding-top: 2%;
+    color: #868e96;
+    text-align: center;
+  }
