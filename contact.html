@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;800&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -25,6 +24,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
+    <style>
+        .click-counter {
+            font-size: 1.5em;
+            color: #000;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 
 <body class="container-fluid body_section">
@@ -53,37 +59,54 @@
                     <li class="nav-item">
                         <a class="nav-link headerachor" href="contact.html">Contact Me</a>
                     </li>
-             </ul>
+                </ul>
         </nav>
-    </header>  
+    </header>
     <section id="contact">
         <div class="row first-section">
             <div class="col-lg-6 col-md-6">
-                <img class = "Profilepic" src="anubhav.jpg" alt="">
+                <img class="Profilepic" src="anubhav.jpg" alt="">
             </div>
             <div class="col-lg-6 col-md-6 context">
                 <h1>Reach out to me!</h1>
                 <p>I am available on various social media platform.<br>
                     Interested in collaborating or just want to connect? My inbox is always available</p>
                 <ul class="ico">
-                    <li class="icon"><a href="https://github.com/InflixOP" target=_blank><span class="iconify github" data-icon="ant-design:github-filled" data-inline="false"  data-width="50" data-height="50"></span></li></a>
-                     <li class="icon"><a href="https://instagram.com/anubhav_0.7" target=_blank><span class="iconify instagram" data-icon="entypo-social:instagram-with-circle" data-inline="false" data-width="50" data-height="50"></span></li></a>
-                     <li class="icon"><a href="https://linkedin.com/in/anubhav-saxena-84438a249" target=_blank><span class="iconify linkedin" data-icon="entypo-social:linkedin-with-circle" data-inline="false"  data-width="50" data-height="50"></span></li></a>
-                    <li class="icon"><a href="mailto:saxenaanubhav1204@gmail.com" target=_blank><span class="iconify google" data-icon="ant-design:google-plus-circle-filled" data-inline="false" data-width="50" data-height="50"></span></li></a>
-                    </ul>
-                    <a href="https://drive.google.com/file/d/1fUl3-3KZQbWz3x6eBLSC2qZboLyWgj6o/view?usp=sharing" target=_blank><button type="button" class="btn btn-primary btn-lg Resume">See my Resume</button></a>
-             </div>
+                    <li class="icon"><a href="https://github.com/InflixOP" target=_blank><span class="iconify github" data-icon="ant-design:github-filled" data-inline="false" data-width="50" data-height="50"></span></a></li>
+                    <li class="icon"><a href="https://instagram.com/anubhav_0.7" target=_blank><span class="iconify instagram" data-icon="entypo-social:instagram-with-circle" data-inline="false" data-width="50" data-height="50"></span></a></li>
+                    <li class="icon"><a href="https://linkedin.com/in/anubhav-saxena-84438a249" target=_blank><span class="iconify linkedin" data-icon="entypo-social:linkedin-with-circle" data-inline="false" data-width="50" data-height="50"></span></a></li>
+                    <li class="icon"><a href="mailto:saxenaanubhav1204@gmail.com" target=_blank><span class="iconify google" data-icon="ant-design:google-plus-circle-filled" data-inline="false" data-width="50" data-height="50"></span></a></li>
+                </ul>
+                <a href="" target=_blank><button type="button" class="btn btn-primary btn-lg Resume">See my Resume</button></a>
+            </div>
         </div>
-        </section>
+    </section>
     <section id="sect2">
         <div class="second-section">
             <h1 class="connect">Let's connect and build something together!</h1>
-            <a class="sayhello" href="#contact">Yo! <span class="wave">👋</span></a>
-            <div class="col-lg-6 connect-image">
-            <img  class= "connection" src="connection.svg" style="margin-top:10%" alt="">
-        </div>
-        </div>
-    </section>
-    <footer class=footer>Portfolio Website | Anubhav Saxena</footer>   
-    </body>
-    </html>
+            <a class="sayhello"  onclick="incrementCount()">Yo! <span class="wave">👋</span></a>
+            <br>
+<div id="clickCount" class="click-counter" style="display: none;font-family:Lovely Home"></div>
+<div class="col-lg-6 connect-image">
+    <img class="connection" src="music.gif" style="margin-top:10%" alt="">
+</div>
+</section>
+<footer class="footer">Portfolio Website | Anubhav Saxena</footer>
+
+<script>
+    let count = 0;
+    let firstClick = true;
+    
+    function incrementCount() {
+        count++;
+        if (firstClick) {
+            document.getElementById('clickCount').style.display = 'block';
+            firstClick = false;
+        }
+        document.getElementById('clickCount').innerText = 'Hey! : ' + count;
+    }
+</script>
+
+</body>
+
+</html>
