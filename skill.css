@@ -27,7 +27,7 @@ body{
       font-family: "Lovely Home";
       font-size: 50px;
       font-weight: bold;
-      color: #351458;
+      color: #211e5b;
   }
   .navbar-nav {
     display: flex;
@@ -50,7 +50,7 @@ body{
   }
 #prof{
     font-family: "Lovely Home";
-    color: #351458;
+    color: #211e5b;
     font-weight: bold;
     font-size: 300%;
 }
@@ -250,7 +250,7 @@ to {
     -moz-animation: Animate-JS 4s;
     -o-animation: Animate-JS 4s;
     border-radius:20px;
-    width: 55%;
+    width: 72%;
     height: 50px;
     position: absolute;
     background-color: #0f2f31;
@@ -272,25 +272,25 @@ to {
     width: 10px;
 }
 to {
-    width: 55%}
+    width: 72%}
 }@-webkit-keyframes Animate-JS {
     from {
     width: 10px;
 }
 to {
-    width: 55%}
+    width: 72%}
 }@-moz-keyframes Animate-JS {
     from {
     width: 10px;
 }
 to {
-    width: 55%}
+    width: 72%}
 }@-o-keyframes Animate-JS {
     from {
     width: 10px;
 }
 to {
-    width: 55%}
+    width: 72%}
 }
 @keyframes Animate-node {
     from {
@@ -324,7 +324,7 @@ to {
     -moz-animation: Animate-java 4s;
     -o-animation: Animate-java 4s;
     border-radius:20px;
-    width: 68%;
+    width: 73%;
     height: 50px;
     position: absolute;
     background-color: #0f2f31;
@@ -334,32 +334,32 @@ to {
     width: 10px;
 }
 to {
-    width: 68%}
+    width: 73%}
 }@-webkit-keyframes Animate-java {
     from {
     width: 10px;
 }
 to {
-    width: 68%}
+    width: 73%}
 }@-moz-keyframes Animate-java {
     from {
     width: 10px;
 }
 to {
-    width: 68%}
+    width: 73%}
 }@-o-keyframes Animate-java {
     from {
     width: 10px;
 }
 to {
-    width: 68%}
+    width: 73%}
 }#Skill-Cplus {
     animation: Animate-Cplus4s;
     -webkit-animation: Animate-Cplus 4s;
     -moz-animation: Animate-Cplus 4s;
     -o-animation: Animate-Cplus 4s;
     border-radius:20px;
-    width: 88%;
+    width: 93%;
     height: 50px;
     position: absolute;
     background-color: #0f2f31;
@@ -442,7 +442,7 @@ to {
     -moz-animation: Animate-Android 4s;
     -o-animation: Animate-Android 4s;
     border-radius:20px;
-    width: 30%;
+    width: 35%;
     height: 50px;
     position: absolute;
     background-color: #0f2f31;
@@ -452,25 +452,25 @@ to {
     width: 10px;
 }
 to {
-    width: 30%}
+    width: 35%}
 }@-webkit-keyframes Animate-Android {
     from {
     width: 10px;
 }
 to {
-    width: 30%}
+    width: 35%}
 }@-moz-keyframes Animate-Android {
     from {
     width: 10px;
 }
 to {
-    width: 30%}
+    width: 35%}
 }@-o-keyframes Animate-Android {
     from {
     width: 10px;
 }
 to {
-    width: 30%
+    width: 35%
 }}
 #Skill-blockchain {
     animation: Animate-blockchain 4s;
@@ -513,25 +513,25 @@ to {
     width: 10px;
 }
 to {
-    width:88%}
+    width:93%}
 }@-webkit-keyframes Animate-Cplus {
     from {
     width: 10px;
 }
 to {
-    width: 88%}
+    width: 93%}
 }@-moz-keyframes Animate-Cplus {
     from {
     width: 10px;
 }
 to {
-    width: 88%}
+    width: 93%}
 }@-o-keyframes Animate-Cplus {
     from {
     width: 10px;
 }
 to {
-    width: 88%}
+    width: 93%}
 }#Skill-SQL {
     animation: Animate-SQL 4s;
     -webkit-animation: Animate-SQL 4s;
