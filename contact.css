@@ -79,6 +79,9 @@ body{
       font-weight: bold;
       color: #211e5b;
   }
+  #clickCount{
+    margin-top: 5%;
+  }
 }
   
   .headerachor {
