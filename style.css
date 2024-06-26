@@ -12,7 +12,7 @@ body.dark-mode {
 }
 
 .navbar-light .navbar-brand, .headerachor, .footer {
-    color: #351458;
+    color: #211e5b;
 }
 
 
@@ -28,7 +28,7 @@ p{
         font-family: "Lovely Home";
         font-size: 40px;
         font-weight: bold;
-        color: #351458;
+        color: #211e5b;
     }
 }
 
