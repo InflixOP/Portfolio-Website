@@ -263,7 +263,7 @@ span.wave {
 
   .Feature-Heading{
       font-family: "Montserrat";
-      font-weight: 300;
+      font-weight: 550;
   }
 
   .Feature-first-image{
@@ -307,7 +307,7 @@ span.wave {
   .pandas{
     max-width: 100%;
     max-height: 100%;
-    width : 23%;
+    width : 27%;
     height: 25%;
     padding-bottom: 7%;
     padding-left :3%;
