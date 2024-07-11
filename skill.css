@@ -261,7 +261,7 @@ to {
     -moz-animation: Animate-node 4s;
     -o-animation: Animate-node 4s;
     border-radius:20px;
-    width: 50%;
+    width: 58%;
     height: 50px;
     position: absolute;
     background-color: #0f2f31;
@@ -297,25 +297,25 @@ to {
     width: 10px;
 }
 to {
-    width: 50%}
+    width: 58%}
 }@-webkit-keyframes Animate-node {
     from {
     width: 10px;
 }
 to {
-    width: 50%}
+    width: 58%}
 }@-moz-keyframes Animate-node {
     from {
     width: 10px;
 }
 to {
-    width: 50%}
+    width: 58%}
 }@-o-keyframes Animate-node {
     from {
     width: 10px;
 }
 to {
-    width: 50%}
+    width: 58%}
 }
 
 #Skill-java {
@@ -406,7 +406,7 @@ to {
     -moz-animation: Animate-Matplotlib 4s;
     -o-animation: Animate-Matplotlib 4s;
     border-radius:20px;
-    width: 72%;
+    width: 78%;
     height: 50px;
     position: absolute;
     background-color: #0f2f31;
@@ -416,25 +416,25 @@ to {
     width: 10px;
 }
 to {
-    width: 72%}
+    width: 78%}
 }@-webkit-keyframes Animate-Matplotlib {
     from {
     width: 10px;
 }
 to {
-    width: 72%}
+    width: 78%}
 }@-moz-keyframes Animate-Matplotlib {
     from {
     width: 10px;
 }
 to {
-    width: 72%}
+    width: 78%}
 }@-o-keyframes Animate-Matplotlib {
     from {
     width: 10px;
 }
 to {
-    width: 72%
+    width: 78%
 }}
 #Skill-Android {
     animation: Animate-Android 4s;
