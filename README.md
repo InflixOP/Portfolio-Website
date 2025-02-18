@@ -22,7 +22,7 @@ This repository contains all the code and files for my **Portfolio Website**. Th
 ![Projects Section](images/projects.png)
 
 ### 📞 Skills Section
-![Contact Section](images/contact.png)
+![Contact Section](images/skills.png)
 
 ## 📂 Installation & Setup
 1. Clone the repository:
